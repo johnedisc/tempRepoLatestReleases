@@ -1,6 +1,6 @@
 const path = require('path');
-// There's a new line below this one!
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
@@ -8,8 +8,11 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist')
   },
-  // The plugins key below this line is also new!
+  devtool: 'eval-source-map',
   plugins: [
+    new CleanWebpackPlugin({
+      verbose: true
+    }),
     new HtmlWebpackPlugin({
       title: 'session',
       template: './src/index.html',
