@@ -9,6 +9,13 @@ module.exports = {
     path: path.resolve(__dirname, 'dist')
   },
   devtool: 'eval-source-map',
+  devServer: {
+    open: {
+      app: {
+        name: 'google-chrome',
+      },
+    },
+  },
   plugins: [
     new CleanWebpackPlugin({
       verbose: true
