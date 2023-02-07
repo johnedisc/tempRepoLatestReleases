@@ -1,5 +1,5 @@
 {
-  "name": "practicejournal",
+  "name": "introToApis",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,21 +11,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johnedisc/practiceJournal.git"
+    "url": "git+https://github.com/johnedisc/introToApisEpicodus.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/johnedisc/practiceJournal/issues"
+    "url": "https://github.com/johnedisc/introToApisEpicodus.git/issues"
   },
-  "homepage": "https://github.com/johnedisc/practiceJournal#readme",
+  "homepage": "https://github.com/johnedisc/introToApisEpicodus.git#readme",
   "devDependencies": {
     "@babel/cli": "^7.20.7",
     "@babel/core": "^7.20.12",
     "@babel/plugin-transform-modules-commonjs": "^7.20.11",
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.7.3",
+    "dotenv-webpack": "^8.0.1",
     "eslint": "^8.33.0",
     "eslint-webpack-plugin": "^3.2.0",
     "html-webpack-plugin": "^5.5.0",
